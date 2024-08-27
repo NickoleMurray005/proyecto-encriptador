@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="input-section">
+            <img src="image.png" alt="Icono" class="header-icon">
+            <h1>Ingrese el texto aquí abajo</h1>
+            <textarea id="inputText" placeholder="Introduce el texto aquí..."></textarea>
+            <div class="validation-message">
+                <p>⚪ Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="buttons">
+                <button id="encryptBtn" class="button encrypt">Encriptar</button>
+                <button id="decryptBtn" class="button decrypt">Desencriptar</button>
+            </div>
+        </div>
+        <div class="output-section">
+            <img src="imagen.png" alt="Imagen descriptiva">
+            <p id="outputText">Ningún mensaje fue encontrado</p>
+            <p>Ingresa el texto que desees encriptar o desencriptar, en la caja de texto.</p>
+            <button id="copyBtn" class="button copy">Copiar</button>
+        </div>
+    </div>
+    <footer>
+        <p>Desarrollado por Nickole Murray</p>
+        <p>Contacto: nickolemurray5@gmail.com</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

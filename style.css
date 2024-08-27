@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+/* footer */
+footer {
+    background-color: #a76e91;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    margin-top: auto;
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 1000px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-bottom: 20px; 
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.header-icon {
+    width: 30px; 
+    height: 30px; 
+    margin-right: 10px;
+    background: #F3F5FC;
+}
+
+.input-section {
+    flex: 2;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-right: 2px solid #e6e6e6;
+}
+
+.input-section h1 {
+    font-size: 24px;
+    color: #172B4D;
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #e6e6e6;
+    resize: none;
+}
+
+.validation-message {
+    font-size: 12px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.button {
+    flex: 1;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.encrypt {
+    background-color: #0056b3;
+    color: white;
+}
+
+.decrypt {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.copy {
+    background-color: #32a852;
+    color: white;
+}
+
+.output-section {
+    flex: 1;
+    padding: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.output-section img {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.output-section p {
+    font-size: 16px;
+    color: #333;
+    margin: 5px 0;
+}
+
+@media (min-width: 769px) {
+    .container {
+        flex-direction: row;
+    }
+    
+    .input-section {
+        border-right: 2px solid #e6e6e6;
+        border-bottom: none;
+    }
+}
